@@ -1,6 +1,6 @@
 require 'rubygems'
 require 'hoe'
-require './lib/group_open_id'
+require './lib/group_open_id/version'
 
 Hoe.new('group_open_id', GroupOpenID::VERSION) do |p|
   p.rubyforge_name = 'springnote'
