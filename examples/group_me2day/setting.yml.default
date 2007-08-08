@@ -1,0 +1,10 @@
+target: http://openmaru.myid.net/
+myid:
+  app_key: 
+  user_id: 
+  user_key: 
+me2day:
+  rme2day_path: '/vendor/gems/rme2day'
+  app_key: 
+  user_id: 
+  user_key: 

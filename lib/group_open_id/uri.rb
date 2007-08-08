@@ -1,5 +1,7 @@
 module GroupOpenID
   class URI
+    attr_accessor :uri, :client
+    
     def initialize(uri, client)
       @uri, @client = uri, client
     end

@@ -21,7 +21,6 @@ module GroupOpenID
     def members(group)
       (url = membership_location(group)) or raise InvalidGroupID
       url += '?format=xml'
-      p url
       parse_members(fetcher.get(url))
     end
     
