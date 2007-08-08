@@ -1,0 +1,10 @@
+History.txt
+Manifest.txt
+README.txt
+Rakefile
+lib/group_open_id.rb
+lib/group_open_id/client.rb
+lib/group_open_id/fetcher.rb
+lib/group_open_id/uri.rb
+spec/group_open_id_spec.rb
+vendor/rest-open-uri.rb
