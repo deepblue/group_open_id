@@ -17,11 +17,17 @@ module GroupOpenID
     end
     
     def head(url)
+      log "HEAD #{url}"
       open(url, default_params.merge(:method => :head)).meta
     end
     
     def get(url)
+      log "GET #{url}"
       open(url, default_params).read
     end    
+    
+    def log(msg)
+      @config.logger.info(msg) if @config.logger
+    end
   end
 end

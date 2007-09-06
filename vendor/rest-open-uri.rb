@@ -283,7 +283,7 @@ module OpenURI
         else
           sock = sock.instance_variable_get(:@socket) # 1.8
         end
-        sock.post_connection_check(target_host)
+        # sock.post_connection_check(target_host)  # by deepblue
       end
 
       methodclass = Methods[options[:method] || :get]

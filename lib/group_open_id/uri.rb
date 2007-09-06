@@ -17,5 +17,13 @@ module GroupOpenID
     def member?(openid)
       @client.member?(@uri, openid)
     end
+    
+    def owner
+      @client.owner(@uri)
+    end
+    
+    def owner?(openid)
+      @client.owner?(@uri, openid)
+    end
   end
 end
